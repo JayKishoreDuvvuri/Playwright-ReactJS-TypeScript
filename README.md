@@ -1,4 +1,4 @@
-### Playwright With JavaScript For Sauce Demo Website
+### Playwright With TypeScript For Sauce Demo Website
 
 An example project demonstrating automation of playwright tests using page object design pattern framework.
 
@@ -40,8 +40,7 @@ Install the dependencies and devDependencies to run the test.
 Clone the repository
 
 ```bash
-GitHuB: git clone https://github.com/JayKishoreDuvvuri/Playwright-ReactJS.git
-GitLab: git clone https://gitlab.com/jaykishore96/playwright-reactjs.git (Main Branch)
+git clone https://github.com/JayKishoreDuvvuri/Playwright-ReacJS-TypeScript.git
 ```
  
 Install dependencies
@@ -52,6 +51,13 @@ npx playwright install --with-deps
 ```
 
 #### Run application
+
+Run tests individually
+
+```bash
+npm run test:one - Run the test TC_01_productPage.test.ts
+npm run test:two - Run the test TC_02_checkoutWorkflow.test.ts
+```
 
 Run tests in Parallel chrome
 
@@ -81,20 +87,4 @@ Run tests in Parallel on all browsers (chrome, safari, edge and firefox)
 
 ```bash
 npm run test  - For tests only on all browsers
-```
-
-#### Playwright Test Report
-
-```bash
-Html-test-report :
-npm run html-report
-```
-
-#### GitLab
-
-```bash
-Repo: 
-Main Branch Latest: https://gitlab.com/jaykishore96/playwright-reactjs/-/tree/main
-Master Branch Old: https://gitlab.com/jaykishore96/playwright-reactjs
-Pipelines: https://gitlab.com/jaykishore96/playwright-reactjs/-/pipelines
 ```
