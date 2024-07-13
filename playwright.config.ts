@@ -4,17 +4,13 @@ export default defineConfig({
 	testDir: 'tests',
 	timeout: 30000,
 	retries: 1,
-	reporter: [
-		[`html`],
-		[`dot`],
-		[`./CustomReporterConfig.ts`],
-	],
+	reporter: [['junit', { outputFile: 'results.xml' }]],
 	expect: {
 		timeout: 10 * 1000
 	},
 	use: {
 		baseURL: 'https://www.saucedemo.com/',
-		headless: false,
+		headless: true,
 		viewport: { width: 1720, height: 850 },
 		screenshot: `only-on-failure`,
 		video: `retain-on-failure`,
