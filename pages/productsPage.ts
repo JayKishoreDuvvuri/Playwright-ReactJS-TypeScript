@@ -7,7 +7,7 @@ const testData = JSON.parse(fs.readFileSync(`./data/users.json`, `utf-8`))
 
 export class ProductsPage extends BasePage {
 	constructor(page: Page) {
-		super(page)
+		super(page) 
 	}
 
 	async verifyProductsPageLogoVisible(): Promise<void> {
