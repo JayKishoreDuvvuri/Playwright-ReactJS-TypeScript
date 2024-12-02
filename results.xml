@@ -1,14 +1,10 @@
-<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="7.997752">
-<testsuite name="TC_01_productPage.test.ts" timestamp="2024-07-13T11:23:39.120Z" hostname="Chrome" tests="3" failures="0" skipped="0" time="13.445" errors="0">
-<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="6.324">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.453259">
+<testsuite name="TC_01_productPage.test.ts" timestamp="2024-12-02T17:03:13.206Z" hostname="Chrome" tests="3" failures="0" skipped="0" time="16.936" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="7.539">
 </testcase>
-<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="3.032">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="4.947">
 </testcase>
-<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="4.089">
-</testcase>
-</testsuite>
-<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2024-07-13T11:23:39.120Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="5.776" errors="0">
-<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="5.776">
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="4.45">
 </testcase>
 </testsuite>
 </testsuites>
