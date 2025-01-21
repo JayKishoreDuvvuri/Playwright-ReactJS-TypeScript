@@ -1,6 +1,122 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.877695">
-<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2024-12-08T16:02:56.465Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="4.244" errors="0">
-<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="4.244">
+<testsuites id="" name="" tests="24" failures="0" skipped="24" errors="0" time="6.451851">
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Firefox" tests="3" failures="0" skipped="3" time="0.012" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0.012">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Safari" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Edge" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="Edge" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="mobile-chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="mobile-chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="mobile-webkit" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.ts" timestamp="2025-01-21T15:47:12.354Z" hostname="mobile-webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>
